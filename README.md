@@ -22,3 +22,5 @@ This makes verification **instant**, **secure** (forgery-proof), **efficient**, 
 * **For Educational Institutions:** Enhances institutional integrity and drastically reduces administrative workload.
 
 **CA: ST31MPF9XH67BD3KJP5X1JED65NN7ZW0H1PVVTG3F**
+
+(FRONTEND ON ANOTHER BRANCH DUE TO SOME GIT ISSUES)
