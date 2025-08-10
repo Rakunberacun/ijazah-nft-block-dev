@@ -20,3 +20,5 @@ This makes verification **instant**, **secure** (forgery-proof), **efficient**, 
 * **For Graduates:** A secure, portable, and easily shareable digital proof of graduation.
 * **For Companies:** Faster recruitment through instant and trustworthy candidate verification.
 * **For Educational Institutions:** Enhances institutional integrity and drastically reduces administrative workload.
+
+**CA: ST31MPF9XH67BD3KJP5X1JED65NN7ZW0H1PVVTG3F**
