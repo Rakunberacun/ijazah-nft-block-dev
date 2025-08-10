@@ -1,0 +1,18 @@
+---
+id: 0
+name: Testnet deployment
+network: testnet
+stacks-node: "https://stacks-node-api.testnet.stacks.co"
+bitcoin-node: "http://blockstack:blockstacksystem@bitcoind.testnet.stacks.co:18332"
+plan:
+  batches:
+    - id: 0
+      transactions:
+        - contract-publish:
+            contract-name: nft-ijazah
+            expected-sender: ST31MPF9XH67BD3KJP5X1JED65NN7ZW0H1PVVTG3F
+            cost: 22220
+            path: "contracts\\nft-ijazah.clar"
+            anchor-block-only: true
+            clarity-version: 2
+      epoch: "2.4"
