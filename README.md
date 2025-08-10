@@ -24,3 +24,6 @@ This makes verification **instant**, **secure** (forgery-proof), **efficient**, 
 **CA: ST31MPF9XH67BD3KJP5X1JED65NN7ZW0H1PVVTG3F**
 
 (FRONTEND ON ANOTHER BRANCH DUE TO SOME GIT ISSUES)
+
+<img width="1616" height="1297" alt="image" src="https://github.com/user-attachments/assets/0bd58b8d-7ead-4b37-be51-35d8b3b80ea3" />
+
