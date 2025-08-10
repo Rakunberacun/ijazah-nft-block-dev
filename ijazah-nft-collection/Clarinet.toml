@@ -1,0 +1,20 @@
+[project]
+name = "izajah-nft-collection"
+description = "A collection of NFTs representing ijazah certificates"
+authors = ["Rakan"]
+telemetry = true
+cache_dir = "./.clarinet"
+
+[contracts.nft-ijazah]
+path = "contracts/nft-ijazah.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.nft-trait]
+path = "contracts/nft-trait.clar"
+clarity_version = 2
+epoch = 2.4
+
+[repl]
+costs_version = 2
+parser_version = 2

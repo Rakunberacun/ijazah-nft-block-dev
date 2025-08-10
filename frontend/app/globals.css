@@ -1,0 +1,139 @@
+/* app/globals.css */
+:root {
+  --primary-color: #0070f3;
+  --secondary-color: #f6f8fa;
+  --text-color: #333;
+  --border-color: #eaeaea;
+  --error-color: #e00;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  margin: 0;
+  background-color: #fff;
+  color: var(--text-color);
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.form-container {
+  background-color: var(--secondary-color);
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+}
+
+.form-container h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+input[type="text"], input[type="number"] {
+  padding: 0.6rem 0.8rem;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+input[type="text"]:focus, input[type="number"]:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 2px rgba(0, 112, 243, 0.2);
+}
+
+button {
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
+
+.connect-button, .disconnect-button {
+  background-color: transparent;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.disconnect-button {
+  margin-left: 1rem;
+  color: var(--error-color);
+  border-color: var(--error-color);
+}
+
+.wallet-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.wallet-info p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.result-box {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+}
+
+.result-box h3 {
+  margin-top: 0;
+  font-size: 1.1rem;
+}
+
+.error-message {
+  color: var(--error-color);
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  color: #888;
+  font-size: 0.9rem;
+}
